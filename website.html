@@ -1,3 +1,115 @@
-<button>Hello</button>
-<p>paragraph</p>
-<a href="https://www.youtube.com/" target="_blank">Youtube</a>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Обо мне</title>
+</head>
+<body>
+
+<header>
+    <h1>Мой личный сайт</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#projects">Проекты</a></li>
+            <li><a href="#skills">Навыки</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div class="container">
+
+        <article id="about">
+            <h2>Обо мне</h2>
+            <p>
+                Меня зовут Suliman. Я ученик 10 класса и на данный момент я изучаю веб-разработку.
+                Моя цель — научиться создавать сайты и начать зарабатывать на этом.
+            </p>
+        </article>
+
+        <article id="projects">
+            <h2>Мои проекты</h2>
+
+            <div class="project-card">
+                <h3>Личный сайт</h3>
+                <a href="https://suliman2010umar-cloud.github.io/-HTML-/">Сайт с информацией обо мне.</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Учебный проект</h3>
+                <p>Практика HTML.</p>
+            </div>
+        </article>
+
+        <article id="skills">
+            <h2>Мои навыки</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Навык</th>
+                        <th>Уровень</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Начальный</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Начальный</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>Базовый</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+
+        <article id="contacts">
+            <h2>Связаться со мной</h2>
+
+            <form>
+                <label>
+                    Имя:
+                    <input type="text" name="name">
+                </label>
+                <br><br>
+
+                <label>
+                    Email:
+                    <input type="email" name="email">
+                </label>
+                <br><br>
+
+                <label>
+                    Сообщение:
+                    <textarea name="message"></textarea>
+                </label>
+                <br><br>
+
+                <label>
+                    <input type="checkbox" name="agree">
+                    Я согласен на обработку данных
+                </label>
+                <br><br>
+
+                <button type="submit">Отправить</button>
+                <button type="reset">Очистить</button>
+            </form>
+        </article>
+
+    </div>
+</main>
+
+<footer>
+    <p>© 2025 Мой сайт</p>
+</footer>
+
+</body>
+</html>
